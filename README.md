@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-<!--
-**exuaaq/exuaaq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+My name is **Eldar Alić**, and I'm a **final-year Software Engineering student** with a strong interest in **system engineering** and **full-stack development**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+### Skills 🛠️
+- **Java, C++, C#**
+- **Linux** and system tooling
+- **Backend development:** Spring Boot, Node.js, Express.js, Next.js
+- **Frontend fundamentals:** HTML, CSS, JavaScript
+- **Databases:** SQL, SQLite, Oracle Database
+- **Docker** and simple deployment setups
+
+
