@@ -5,7 +5,7 @@ My name is **Eldar Alić**, and I'm a **final-year Software Engineering student*
 
 
 ### Skills 🛠️
-- **Java, C++, C#**
+- **Java, C++, C#, Python**
 - **Linux** and system tooling
 - **Backend development:** Spring Boot, Node.js, Express.js, Next.js
 - **Frontend fundamentals:** HTML, CSS, JavaScript
