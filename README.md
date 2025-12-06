@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-My name is **Eldar Alić**, and I'm a **Software Engineering student** with a strong interest in **system engineering** and **full-stack development**.
+My name is **Eldar Alić**, and I'm a **Software Engineering student** with a strong interest in **system & network engineering**.
 
 
 ### Skills 🛠️
