@@ -2,24 +2,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="870" height="375" viewBox="0 0 870 375">
   <style>
     .ascii-text { font-family: Courier, "Courier New", monospace; font-size: 13px; fill: #c9d1d9; white-space: pre; }
+    .key { fill: #58a6ff; font-weight: bold; }
+    .header { fill: #79c0ff; }
   </style>
   <rect width="100%" height="100%" fill="#0d1117" rx="6"/>
   <text x="15" y="25" class="ascii-text">
-    <tspan x="15" dy="19">                                             exuaaq@desktop ---------------------------------------------</tspan>
-    <tspan x="15" dy="19">                                             . OS: .................................... Windows 11, Linux</tspan>
-    <tspan x="15" dy="19">                     *+-.                     . Uptime:<tspan id="uptime_data_dots"> ..................... </tspan><tspan id="uptime_data">22 years, 11 months, 23 days</tspan></tspan>
-    <tspan x="15" dy="19">                   *%%##=:                   . Kernel: ................................ Software Engineer</tspan>
+    <tspan x="15" dy="19">                                             <tspan class="header">exuaaq@desktop</tspan> <tspan class="header">---------------------------------------------</tspan></tspan>
+    <tspan x="15" dy="19">                                             . <tspan class="key">OS:</tspan> .................................... Windows 11, Linux</tspan>
+    <tspan x="15" dy="19">                     *+-.                    . <tspan class="key">Uptime:</tspan><tspan id="uptime_data_dots"> ..................... </tspan><tspan id="uptime_data">22 years, 11 months, 23 days</tspan></tspan>
+    <tspan x="15" dy="19">                   *%%##=:                   . <tspan class="key">Kernel:</tspan> ................................ Software Engineer</tspan>
     <tspan x="15" dy="19">                +#%%#%%%#+                   . </tspan>
-    <tspan x="15" dy="19">             -+#%##%#%#*   :.                . Languages.Programming: ............. C++, C#, Java &amp; more</tspan>
-    <tspan x="15" dy="19">           =*%#%%%#%*=   *#*=.               . Languages.Real: ........... Bosnian, English, German (Basic)</tspan>
+    <tspan x="15" dy="19">             -+#%##%#%#*   :.                . <tspan class="key">Languages.Programming:</tspan> ............. C++, C#, Java &amp; more</tspan>
+    <tspan x="15" dy="19">           =*%#%%%#%*=   *#*=.               . <tspan class="key">Languages.Real:</tspan> ........... Bosnian, English, German (Basic)</tspan>
     <tspan x="15" dy="19">        -+#%%%#%%#+   +*%%%%#+-.             . </tspan>
-    <tspan x="15" dy="19">       +#%%%%%%%#=. +#%%%%%%##+:             . Hobbies.Software: ....................... Optimizing systems</tspan>
-    <tspan x="15" dy="19">        *%%%%%%%%%##%%%#%%%#+   -=-..        . Hobbies.Hardware: ......... Hardware Tuning, Undervolting</tspan>
-    <tspan x="15" dy="19">         +#%#%%%%#%#%%%%%*-   -*##*+:.       . Hobbies.Automotive: ....... Vehicle Diagnostics</tspan>
+    <tspan x="15" dy="19">       +#%%%%%%%#=. +#%%%%%%##+:             . <tspan class="key">Hobbies.Software:</tspan> ....................... Optimizing systems</tspan>
+    <tspan x="15" dy="19">        *%%%%%%%%%##%%%#%%%#+   -=-..        . <tspan class="key">Hobbies.Hardware:</tspan> ......... Hardware Tuning, Undervolting</tspan>
+    <tspan x="15" dy="19">         +#%#%%%%#%#%%%%%*-   -*##*+:.       . <tspan class="key">Hobbies.Automotive:</tspan> ....... Vehicle Diagnostics</tspan>
     <tspan x="15" dy="19">           *#%%%%%%#%%#+   :-*######+-.      </tspan>
-    <tspan x="15" dy="19">            +%%%%%%%%%#+:-=*#%%%%%#+-.       - Contact -----------------------------------------------</tspan>
-    <tspan x="15" dy="19">              #%%%%%%%%%%#%%%%%%#+-.         . Discord: ....................................... exuaaq</tspan>
-    <tspan x="15" dy="19">               *#%%%%%%%%%%%%#*+:.           . LinkedIn: ...................................... exuaaq</tspan>
+    <tspan x="15" dy="19">            +%%%%%%%%%#+:-=*#%%%%%#+-.       <tspan class="header">- Contact -----------------------------------------------</tspan></tspan>
+    <tspan x="15" dy="19">              #%%%%%%%%%%#%%%%%%#+-.         . <tspan class="key">Discord:</tspan> ....................................... exuaaq</tspan>
+    <tspan x="15" dy="19">               *#%%%%%%%%%%%%#*+:.           . <tspan class="key">LinkedIn:</tspan> ...................................... exuaaq</tspan>
     <tspan x="15" dy="19">                 #%%%%%%%%%#*=:.             </tspan>
     <tspan x="15" dy="19">                  *#%%%%%#+-:                </tspan>
     <tspan x="15" dy="19">                    #%#*=:.                  </tspan>
