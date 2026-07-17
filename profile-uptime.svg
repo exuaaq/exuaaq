@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="20">
+    <style>
+        .label { font: bold 11px 'Segoe UI', Montserrat, sans-serif; fill: #fff; }
+        .value { font: 11px 'Segoe UI', Montserrat, sans-serif; fill: #00ff66; }
+    </style>
+    <rect width="90" height="20" fill="#2d2d2d" rx="3" />
+    <rect x="90" width="230" height="20" fill="#1e1e1e" rx="3" />
+    <text x="10" y="14" class="label">🎂 Uptime</text>
+    <text x="100" y="14" class="value">22.984142437 years</text>
+</svg>
