@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="375" viewBox="0 0 870 375">
+  <style>
+    .ascii-text { font-family: Courier, "Courier New", monospace; font-size: 13px; fill: #24292e; white-space: pre; }
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff" rx="6" />
+  <text x="15" y="25" class="ascii-text">
+    <tspan x="15" dy="19">                                             exuaaq@desktop --------------------------------------------------</tspan>
+    <tspan x="15" dy="19">                                             . OS: .................................... Windows 11, Linux</tspan>
+    <tspan x="15" dy="19">                     *+-.                    . Uptime: .................... Loading profile statistics...</tspan>
+    <tspan x="15" dy="19">                   *%%##=:                   . Kernel: ............................... Software Engineer</tspan>
+    <tspan x="15" dy="19">                +#%%#%%%#+                   . </tspan>
+    <tspan x="15" dy="19">             -+#%##%#%#*   :.                . Languages.Programming: ............. C++, C#, Java &amp; more</tspan>
+    <tspan x="15" dy="19">           =*%#%%%#%*=   *#*=.               . Languages.Real: ........... Bosnian, English, German (Basic)</tspan>
+    <tspan x="15" dy="19">        -+#%%%#%%#+   +*%%%%#+-.             . </tspan>
+    <tspan x="15" dy="19">       +#%%%%%%%#=. +#%%%%%%##+:             . Hobbies.Software: ....................... Optimizing systems</tspan>
+    <tspan x="15" dy="19">        *%%%%%%%%%##%%%#%%%#+   -=-..        . Hobbies.Hardware: ......... Hardware Tuning, Undervolting</tspan>
+    <tspan x="15" dy="19">         +#%#%%%%#%#%%%%%*-   -*##*+:.       . Hobbies.Automotive: ....... Vehicle Diagnostics</tspan>
+    <tspan x="15" dy="19">           *#%%%%%%#%%#+   :-*######+-.      </tspan>
+    <tspan x="15" dy="19">            +%%%%%%%%%#+:-=*#%%%%%#+-.       - Contact -----------------------------------------------------</tspan>
+    <tspan x="15" dy="19">              #%%%%%%%%%%#%%%%%%#+-.         . Discord: ....................................... exuaaq</tspan>
+    <tspan x="15" dy="19">               *#%%%%%%%%%%%%#*+:.           . LinkedIn: ...................................... exuaaq</tspan>
+    <tspan x="15" dy="19">                 #%%%%%%%%%#*=:.             </tspan>
+    <tspan x="15" dy="19">                  *#%%%%%#+-:                </tspan>
+    <tspan x="15" dy="19">                    #%#*=:.                  </tspan>
+    <tspan x="15" dy="19">                     =-:                     </tspan>
+  </text>
+</svg>
