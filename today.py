@@ -1,50 +1,65 @@
-from datetime import datetime
-import os
+import datetime
+from lxml import etree
 
-def calculate_age(birth_date):
-    now = datetime.now()
-    # Calculate the time difference
-    time_difference = now - birth_date
-    
-    # Convert total seconds alive into an exact decimal age
+def daily_readme(birthday):
+    """
+    Returns the exact age formatted to 9 decimal places
+    """
+    now = datetime.datetime.today()
+    time_difference = now - birthday
     # 365.2425 accounts for leap years accurately over time
     age = time_difference.total_seconds() / (365.2425 * 24 * 3600)
-    return age
+    return f"{age:.9f} years"
 
-def generate_svg(age):
-    # Format the age to 9 decimal places for that high-precision "uptime" look
-    age_str = f"{age:.9f}"
+def justify_format(root, element_id, new_text, length=0):
+    """
+    Updates the text of the element, and modifies the dots to keep alignment
+    """
+    new_text = str(new_text)
+    find_and_replace(root, element_id, new_text)
     
-    # This is your SVG template. You can customize the colors, text, or dark theme styles here!
-    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="320" height="20">
-    <style>
-        .label {{ font: bold 11px 'Segoe UI', Montserrat, sans-serif; fill: #fff; }}
-        .value {{ font: 11px 'Segoe UI', Montserrat, sans-serif; fill: #00ff66; }}
-    </style>
-    <rect width="90" height="20" fill="#2d2d2d" rx="3" />
-    <rect x="90" width="230" height="20" fill="#1e1e1e" rx="3" />
-    <text x="10" y="14" class="label">🎂 Uptime</text>
-    <text x="100" y="14" class="value">{age_str} years</text>
-</svg>"""
+    # Calculate how many dots we need to keep the alignment perfect
+    just_len = max(0, length - len(new_text))
+    if just_len <= 2:
+        dot_map = {0: '', 1: ' ', 2: '. '}
+        dot_string = dot_map[just_len]
+    else:
+        dot_string = ' ' + ('.' * just_len) + ' '
     
-    return svg_content
+    find_and_replace(root, f"{element_id}_dots", dot_string)
 
-def main():
-    # Your birthdate: July 24, 2003
-    birth_date = datetime(2003, 7, 24, 0, 0, 0) 
-    
-    # Calculate current precision age
-    current_age = calculate_age(birth_date)
-    
-    # Generate the fresh SVG code
-    svg_code = generate_svg(current_age)
-    
-    # Save it to a file named profile-uptime.svg
-    output_filename = "profile-uptime.svg"
-    with open(output_filename, "w", encoding="utf-8") as f:
-        f.write(svg_code)
+def find_and_replace(root, element_id, new_text):
+    """
+    Finds the element in the SVG file and replaces its text
+    """
+    element = root.find(f".//*[@id='{element_id}']")
+    if element is not None:
+        element.text = new_text
+
+def svg_overwrite(filename, age_data):
+    """
+    Parses the SVG and replaces the Loading text with your real uptime age
+    """
+    try:
+        parser = etree.XMLParser(remove_blank_text=False)
+        tree = etree.parse(filename, parser)
+        root = tree.getroot()
         
-    print(f"Successfully generated {output_filename} with age: {current_age:.9f}")
+        # Updates the uptime string and balances it against 20 dot slots
+        justify_format(root, 'uptime_data', age_data, 20)
+        
+        tree.write(filename, encoding='utf-8', xml_declaration=True)
+        print(f"Successfully updated {filename}")
+    except Exception as e:
+        print(f"Error updating {filename}: {e}")
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    # Your birthdate: July 24, 2003
+    birth_date = datetime.datetime(2003, 7, 24, 0, 0, 0)
+    
+    # Calculate precision uptime age
+    age_str = daily_readme(birth_date)
+    
+    # Update both layout SVGs natively
+    svg_overwrite('dark_mode.svg', age_str)
+    svg_overwrite('light_mode.svg', age_str)
