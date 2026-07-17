@@ -7,7 +7,7 @@
   </style>
   <rect width="100%" height="100%" fill="#0d1117" rx="6"/>
   <text x="15" y="25" class="ascii-text">
-    <tspan x="15" dy="19">                                             <tspan class="header">exuaaq@github</tspan> <tspan class="header">--------------------------------------------</tspan></tspan>
+    <tspan x="15" dy="19">                                             <tspan class="header">exuaaq@github</tspan> <tspan class="header">---------------------------------------------</tspan></tspan>
     <tspan x="15" dy="19">                     *+-.                    . <tspan class="key">OS:</tspan> ...................................... Windows, Linux</tspan>
     <tspan x="15" dy="19">                   *%%##=:                   . <tspan class="key">Uptime:</tspan><tspan id="uptime_data_dots"> ..................... </tspan><tspan id="uptime_data">22 years, 11 months, 23 days</tspan></tspan>
     <tspan x="15" dy="19">                +#%%#%%%#+                   . <tspan class="key">Kernel:</tspan> ............................... Software Engineer</tspan>
@@ -20,7 +20,7 @@
     <tspan x="15" dy="19">           *#%%%%%%#%%#+   :-*######+-.      . <tspan class="key">Hobbies.Automotive:</tspan> ................. Vehicle Diagnostics</tspan>
     <tspan x="15" dy="19">            +%%%%%%%%%#+:-=*#%%%%%#+-.       </tspan>
     <tspan x="15" dy="19">              #%%%%%%%%%%#%%%%%%#+-.         <tspan class="header">- Contact -------------------------------------------------</tspan></tspan>
-    <tspan x="15" dy="19">               *#%%%%%%%%%%%%#*+:.           . <tspan class="key">Email:</tspan> ..............................eldar.alyc@gmail.com</tspan>
+    <tspan x="15" dy="19">               *#%%%%%%%%%%%%#*+:.           . <tspan class="key">Email:</tspan> ............................. eldar.alyc@gmail.com</tspan>
     <tspan x="15" dy="19">                 #%%%%%%%%%#*=:.             . <tspan class="key">Discord:</tspan> ......................................... exuaaq</tspan>
     <tspan x="15" dy="19">                  *#%%%%%#+-:                . <tspan class="key">LinkedIn:</tspan> ........................................ exuaaq</tspan>
     <tspan x="15" dy="19">                    #%#*=:.                  </tspan>
