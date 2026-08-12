@@ -9,7 +9,7 @@
   <text x="15" y="25" class="ascii-text">
     <tspan x="15" dy="19">                     *+-.                    <tspan class="header">exuaaq@github</tspan> <tspan class="header">----------------------------------------------</tspan></tspan>
     <tspan x="15" dy="19">                   *%%##=:                   . <tspan class="key">OS:</tspan> ....................................... Windows, Linux</tspan>
-    <tspan x="15" dy="19">                +#%%#%%%#+                   . <tspan class="key">Uptime:</tspan><tspan id="uptime_data_dots"> ...................... </tspan><tspan id="uptime_data">23 years, 0 months, 18 days</tspan></tspan>
+    <tspan x="15" dy="19">                +#%%#%%%#+                   . <tspan class="key">Uptime:</tspan><tspan id="uptime_data_dots"> ...................... </tspan><tspan id="uptime_data">23 years, 0 months, 19 days</tspan></tspan>
     <tspan x="15" dy="19">             -+#%##%#%#*   :.                . <tspan class="key">Kernel:</tspan> ................................ Software Engineer</tspan>
     <tspan x="15" dy="19">           =*%#%%%#%*=   *#*=.               </tspan>
     <tspan x="15" dy="19">        -+#%%%#%%#+   +*%%%%#+-.             . <tspan class="key">Languages.Programming:</tspan> .............. C++, C#, Java &amp; more</tspan>
