@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="375" viewBox="0 0 870 375">
+  <style>
+    .ascii { font-family: Courier, "Courier New", monospace; font-size: 13px; fill: #6e7681; white-space: pre; }
+    .t { font-family: Courier, "Courier New", monospace; font-size: 13px; fill: #c9d1d9; }
+    .key { fill: #58a6ff; font-weight: bold; }
+    .header { fill: #79c0ff; font-weight: bold; }
+  </style>
+  <rect width="100%" height="100%" fill="#0d1117" rx="6"/>
+
+  <text x="15" y="25" class="ascii">
+    <tspan x="15" dy="19">                     *+-.</tspan>
+    <tspan x="15" dy="19">                   *%%##=:</tspan>
+    <tspan x="15" dy="19">                +#%%#%%%#+</tspan>
+    <tspan x="15" dy="19">             -+#%##%#%#*   :.</tspan>
+    <tspan x="15" dy="19">           =*%#%%%#%*=   *#*=.</tspan>
+    <tspan x="15" dy="19">        -+#%%%#%%#+   +*%%%%#+-.</tspan>
+    <tspan x="15" dy="19">       +#%%%%%%%#=. +#%%%%%%##+:</tspan>
+    <tspan x="15" dy="19">        *%%%%%%%%%##%%%#%%%#+   -=-..</tspan>
+    <tspan x="15" dy="19">         +#%#%%%%#%#%%%%%*-   -*##*+:.</tspan>
+    <tspan x="15" dy="19">           *#%%%%%%#%%#+   :-*######+-.</tspan>
+    <tspan x="15" dy="19">            +%%%%%%%%%#+:-=*#%%%%%#+-.</tspan>
+    <tspan x="15" dy="19">              #%%%%%%%%%%#%%%%%%#+-.</tspan>
+    <tspan x="15" dy="19">               *#%%%%%%%%%%%%#*+:.</tspan>
+    <tspan x="15" dy="19">                 #%%%%%%%%%#*=:.</tspan>
+    <tspan x="15" dy="19">                  *#%%%%%#+-:</tspan>
+    <tspan x="15" dy="19">                    #%#*=:.</tspan>
+    <tspan x="15" dy="19">                     =-:</tspan>
+  </text>
+
+  <!-- profile -->
+  <text x="370" y="44" class="t header">exuaaq@github</text>
+  <line x1="370" y1="52" x2="850" y2="52" stroke="#30363d"/>
+
+  <text x="370" y="76"  class="t key">role</text>       <text x="530" y="76"  class="t">Software engineer</text>
+  <text x="370" y="95"  class="t key">os</text>         <text x="530" y="95"  class="t">Windows, Linux</text>
+  <text x="370" y="114" class="t key">languages</text>  <text x="530" y="114" class="t">C++, C#, Java</text>
+  <text x="370" y="133" class="t key">spoken</text>     <text x="530" y="133" class="t">Bosnian, English, German</text>
+  <text x="370" y="152" class="t key">interests</text>  <text x="530" y="152" class="t">System optimization, hardware tuning,</text>
+  <text x="530" y="171" class="t">vehicle diagnostics</text>
+
+  <!-- contact -->
+  <text x="370" y="214" class="t header">contact</text>
+  <line x1="370" y1="222" x2="850" y2="222" stroke="#30363d"/>
+
+  <text x="370" y="246" class="t key">email</text>     <text x="530" y="246" class="t">eldar.alyc@gmail.com</text>
+  <text x="370" y="265" class="t key">discord</text>   <text x="530" y="265" class="t">exuaaq</text>
+  <text x="370" y="284" class="t key">linkedin</text>  <text x="530" y="284" class="t">exuaaq</text>
+</svg>
