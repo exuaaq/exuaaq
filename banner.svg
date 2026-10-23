@@ -35,7 +35,7 @@
 
   <text x="370" y="76"  class="t key">focus</text>      <text x="490" y="76"  class="t">systems &amp; network administration</text>
   <text x="370" y="95"  class="t key">platforms</text>  <text x="490" y="95"  class="t">linux, windows</text>
-  <text x="370" y="114" class="t key">languages</text>  <text x="490" y="114" class="t">c, c++, c#, java, python</text>
+  <text x="370" y="114" class="t key">languages</text>  <text x="490" y="114" class="t">c++, c#, java, python</text>
   <text x="370" y="133" class="t key">spoken</text>     <text x="490" y="133" class="t">bosnian, english, german</text>
 
   <!-- interests -->
