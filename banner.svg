@@ -42,7 +42,7 @@
   <text x="370" y="171" class="t header">interests</text>
   <line x1="370" y1="179" x2="850" y2="179" stroke="#30363d"/>
 
-  <text x="370" y="203" class="t key">also into</text>  <text x="490" y="203" class="t">security, embedded systems</text>
+  <text x="370" y="203" class="t key">also into</text>  <text x="490" y="203" class="t">full-stack, security, embedded</text>
   <text x="370" y="222" class="t key">hobbies</text>    <text x="490" y="222" class="t">optimization, cars, gaming</text>
 
   <!-- contact -->
